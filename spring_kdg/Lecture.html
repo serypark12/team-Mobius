@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강의목록</title>
+    <link rel="stylesheet" href="Lecture.css">
+    <link rel="stylesheet" href="header2.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <div id="root">
+
+        <header id="header">
+            <div class="container">
+                <div class="top_header">
+                    <div class="top_logo">
+                        <span>
+                            <img src="https://cdn.inflearn.com/public/main/profile/default_profile.png">
+                        </span>
+                    </div>
+                    <div class="top_content">
+                        <span>교육</span>
+                    </div>
+        
+                </div>
+                <div class="content">
+                    <div class="brand_header">
+                        <a href="" class="brand_logo">
+                            <span class=""></span>
+                        </a>
+                    </div>
+                    <div class="navbar_menu">
+                        <div class="navbar_left">
+                            <div class="headerLogo navbar_item">
+                                <img style="height: 45px; width: 130px;" src="inflearn.png" >
+                            </div> 
+                            <div class="navbar_item">
+                                <a href="">강의</a>
+                            </div>
+                            <div class="navbar_item">
+                                <a href="">강의요청</a>
+                            </div>
+                            <div class="navbar_item">
+                                <a href="review.html">수강후기</a>
+                            </div>
+                            <div class="navbar_item">
+                                <a href="">공지사항</a>
+                            </div>
+                        </div>
+                        <div class="navbar_right">
+                            <div class="buttons">
+                                <a href="" class="button">로그인</a>
+                                <a href="" class="button joinBtn">회원가입</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </header>
+        <main id="main">
+            <section id="section">
+                <div class="container">
+                    <div id="columns">
+                        <aside id="side_left">
+                            <nav id="menu_box">
+                                <div id="menu"><div class="menu">전체 강의 </div></div>
+                                <div id="menu"><div class="menu">개발·프로그래밍</div></div>
+                                <div id="menu"><div class="menu">보안·네트워크</div></div>
+                                <div id="menu"><div class="menu">데이터 사이언스</div></div>
+                                <div id="menu"><div class="menu">게임 개발</div></div>
+                                <div id="menu"><div class="menu">크리에이티브</div></div>
+                                <div id="menu"><div class="menu">직무·마케팅</div></div>
+                                <div id="menu"><div class="menu">학문·외국어</div></div>
+                                <div id="menu"><div class="menu">커리어</div></div>
+                                <div id="menu"><div class="menu">교양</div></div>
+                            </nav>
+                        </aside>
+                        <div id="columns_body">
+                            <header id="column_header">
+                                <div id="search">
+                                    <input type="text" enterkeyhint="go" class="input" placeholder="  강의 검색하기">
+                                    <button type="button" class="button" style="background: #1dc078; color: #fff; ">검색</button>
+                                 </div>
+                            </header>
+                            <main id="columns_main">
+                                <div id="search_option">
+                                    <div id="sort">
+                                        <select id="select" name="order_select">
+                                            <option value="seq" selected> 추천순 </option>
+                                            <option value="popular"> 인기순 </option>
+                                            <option value="recent"> 최신순 </option>
+                                            <option value="rating"> 평점순 </option>
+                                            <option value="famous"> 좋아요순</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="container">
+                                    <div id="list">
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/326674/cover/4657d793-56a4-42f3-9d44-dc88d125a49e">
+                                            <div class="card_content">
+                                                스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술
+                                            </div>
+                                            <div class="name">
+                                                김영한 
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+12700명</span>
+                                            </div>                                        
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/329605/cover/7f7d4d9a-e739-482c-8e16-71081b4793b5/329605-eng.jpg">
+                                            <div class="card_content">
+                                                넓고 얕게 배워서 컴공 전공자 되기
+                                            </div>
+                                            <div class="name">
+                                                널널한 개발자
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+300명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/324238/cover/3fb81c4c-d435-45e1-8db2-7f84908b8151/324238-renew-eng.png">
+                                            <div class="card_content">
+                                                [계정판] 파이썬 머신러닝 완벽 가이드
+                                            </div>
+                                            <div class="name">
+                                                권 철민
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+5200명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/324145/course_cover/f4b28e4f-6635-4e57-95be-5f4ac7b1ea49/I_O_python_1.png">
+                                            <div class="card_content">
+                                                프로그래밍 시작하기 : 파이썬 입문 (inflearn Original)
+                                            </div>
+                                            <div class="name">
+                                                인프런
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+13600명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/329534/cover/76d5fd7f-3e76-4801-bb8f-523d10ff5829/329534-eng.jpg">
+                                            <div class="card_content">
+                                                외워서 끝내는 네트워크 핵심이론 - 기초
+                                            </div>
+                                            <div class="name">
+                                                널널한 개발자
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+400명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/329398/cover/5e613ac4-cfe3-4a97-ac6d-929d9cd49647/329398-eng.jpg">
+                                            <div class="card_content">
+                                                카프카 완벽 가이드 - 코어편
+                                            </div>
+                                            <div style="margin-top: 29px;" class="name">
+                                                권 철민
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+200명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/329248/cover/302bbe7f-5c3d-49f2-b23a-16f4f51e6ede/329248-eng2.png">
+                                            <div class="card_content">
+                                                실전! 코틀린과 스프링 부트로 도서관리 애플리케이션 개발하기 
+                                            </div>
+                                            <div class="name">
+                                                최태현
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+500명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/329214/cover/0d3f339b-06de-40c3-a41a-8633df325ade/329214-eng.jpg">
+                                            <div class="card_content">
+                                                [입문자를 위한 UE5] part1. 언리얼 엔진 블루프린트
+                                            </div>
+                                            <div class="name">
+                                                Rookiss
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+300명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/328723/cover/062da05a-55e9-49f1-a9ad-3e67ea079fe9/328723-eng.png">
+                                            <div class="card_content">
+                                                스프링 DB 1편 - 데이터 접근 핵심 원리
+                                            </div>
+                                            <div class="name">
+                                                김영한
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+5500명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/328644/cover/4afb5f07-cd68-453b-9641-efdb42628d2b/328644-eng.png">
+                                            <div class="card_content">
+                                                데이터 분석 SQL 기초
+                                            </div>
+                                            <div style="margin-top: 29px;" class="name">
+                                                권 철민
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+600명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/328376/cover/6baa63b8-8f8f-473d-9b55-9047a521037e/328376-eng.jpg">
+                                            <div class="card_content">
+                                                실제 이력서 사례로 알아보는 [합격하는 이력서] 작성 가이드
+                                            </div>
+                                            <div class="name">
+                                                워니
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+900명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/328284/cover/ff35cde0-c665-47b5-9d3f-62a6b4c280a4/328284-eng-original.png">
+                                            <div class="card_content">
+                                                제대로 파는 Git & GitHub - by 얄코
+                                            </div>
+                                            <div class="name">
+                                                얄팍한 코딩사전
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+2500명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/327997/cover/6d8192c6-8a28-40c3-b8df-ef5bff5cb9ac/327997-eng.png">
+                                            <div class="card_content">
+                                                모든 개잘자의 실무를 위한 올인원 기본기 클래스
+                                            </div>
+                                            <div class="name">
+                                                그랩
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+700명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/327901/cover/d0f80fce-6877-4058-91bb-dc1ef57339a2/327901-eng.png">
+                                            <div class="card_content">
+                                                스프링 핵심 원리 - 고급편
+                                            </div>
+                                            <div style="margin-top: 29px;" class="name">
+                                                김영한
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+8300명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/327096/cover/fa1cbc3c-c0e8-4a3d-9f2a-1150b67f6457/327096-eng.png">
+                                            <div class="card_content">
+                                                [왕초보편] 앱 8개를 만들면서 배우는 안드로이드 코틀린  
+                                            </div>
+                                            <div class="name">
+                                                개복치개발자
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+1000명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/326865/cover/62ef33f6-9205-4cc9-89aa-43dfc6173a8f/326865-eng.png">
+                                            <div class="card_content">
+                                                딥러닝 CNN 완벽 가이드 - Fundamental 편
+                                            </div>
+                                            <div class="name">
+                                                권 철민
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+1200명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/326750/cover/d7815167-2a01-42c1-aacf-bbd32a3705bc/326750-eng.png">
+                                            <div class="card_content">
+                                                자바(Java) 알고리즘 문제풀이 입문:코딩테스트 대비
+                                            </div>
+                                            <div class="name">
+                                                김태원
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+4000명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/326673/cover/e430860b-4ad4-4b01-b4c7-64dccfc64b3a">
+                                            <div class="card_content">
+                                                Slack 클론 코딩[실시간 채팅 with React]
+                                            </div>
+                                            <div class="name">
+                                                조현영
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+1900명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/326174/cover/b0536120-7de3-4aa8-8266-97cf3881e87d">
+                                            <div class="card_content">
+                                                비전공자를 위한 진짜 입문 올인원 개발 부트캠프
+                                            </div>
+                                            <div class="name">
+                                                그랩
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+2300명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/325035/cover/d69f088c-41c2-4023-a416-fdcb35567ae4/325035-eng.png">
+                                            <div class="card_content">
+                                                [계정판] 딥러닝 컴퓨터 비전 완벽 가이드
+                                            </div>
+                                            <div class="name">
+                                                권 철민
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+2500명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/324718/course_cover/9fa72fd8-ce56-4091-aa73-a31145acf37e/rookiss-rpg-1.png">
+                                            <div class="card_content">
+                                                [C#과 유니티로 만드는 MMORPG 게임 개발 시리즈] 
+                                            </div>
+                                            <div class="name">
+                                                Rookiss
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+4200명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/324214/course_cover/8ce5e6b5-6b31-4659-a0cd-eec20efc13f4/kyh_JPA_Spring2.png">
+                                            <div class="card_content">
+                                                실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화
+                                            </div>
+                                            <div class="name">
+                                                김영한
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+10000명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/329767/cover/daa0cab1-368a-4c67-9d9a-f08a3d10e45c/329767-eng.png">
+                                            <div class="card_content">
+                                                초보자를 위한 IT 인프라의 이해
+                                            </div>
+                                            <div style="margin-top: 29px;" class="name">
+                                                계영수
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+1200명</span>
+                                            </div>                          
+                                        </div>
+                                        <div id="menus_explanation">
+                                            <img id="list_img" src="https://cdn.inflearn.com/public/courses/329736/cover/466b61ae-c562-45e1-8210-3c1f6f2c0bf0/infthum.png">
+                                            <div class="card_content">
+                                                기초부터 실전 체험까지, 출근 걱정 없애는 실전 디지털 마케팅
+                                            </div>
+                                            <div class="name">
+                                                스킬텔러
+                                            </div>
+                                            <div class="tags">
+                                                <span class="tag" style="background-color: hs1(321,63%,90%);">+600명</span>
+                                            </div>                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer style="margin-top: -700px;" id="footer">
+            <div class="wrapper">
+                <div class="footerTop">
+                    <div class="menuList">
+                        <div class="listTitle">
+                            강의목록
+                        </div>
+                        <div class="menuSublist">
+                            <a href="" >IT</a>
+                            <a href="" >외국어</a>
+                            <a href="" >강의추천</a>
+                        </div>
+                    </div>
+                    <div class="menuList">
+                        <div class="listTitle">
+                            공지사항
+                        </div>
+                        <div class="menuSublist">
+                            <a href="" >강의장 소개</a>
+                            <a href="" >수강생 문의</a>
+                            <a href="" >수강평 모아보기</a>
+                        </div>
+                    </div>
+                    <div class="menuList">
+                        <div class="listTitle">
+                            1대 1 문의
+                        </div>
+                        <div class="menuSublist">
+                            <a href="" >문의하기</a>
+                            <a href="" >문의답변</a>
+                            <a href="" >자주묻는 질문</a>
+                        </div>
+                    </div>
+                    <div class="menuList">
+                        <div class="listTitle">
+                            고객센터
+                        </div>
+                        <div class="menuSublist">
+                            <a href="" >공지사항</a>
+                            <a href="" >자주묻는 질문</a>
+                            <a href="" >저작권 신고센터</a>
+                            <a href="" >수료증 확인</a>
+                            <a href="" >강의 · 기능요청</a>
+                        </div>
+                    </div>
+                    <div class="menuList">
+                        <div class="listTitle">
+                            강의장
+                        </div>
+                        <div class="menuSublist">
+                            <a href="" >강의장 둘러보기</a>
+                            <a href="" >강의장 문의</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="footer_bottom_left">
+                        <div class="footer_info_top">
+                            <span class="footerLogo">
+                                <a href="">
+                                    <img src="img/logo.png">
+                                </a>
+                            </span>
+                            <span>
+                                |
+                                <a href="" style="color: #bdbdbd; margin-left: 10px; margin-right: 10px;">개인정보취급방침</a>
+                            </span>
+                            <span>
+                                |
+                                <a href="" style="color: #bdbdbd; margin-left: 10px;">이용약관</a>
+                            </span>
+                        </div>
+                        <div class="footer_info_bottom">
+                            <div class="info_dropdown">
+                                <span> (주)인프랩 | </span> 
+                                <span> 대표자: 이형주 | </span> 
+                                <span> 사업자번호: 499-81-00612 </span> 
+                                <br>
+                                <span>통신판매업: 2018-성남분당B-0062 | </span>
+                                <span>개인정보보호책임자: 이동욱 |  </span>
+                                <span>이메일: info@inflearn.com  </span>
+                                <br>
+                                <span>주소: 경기도 성남시 분당구 대왕판교로 660 유스페이스 1A동 405호</span>
+                            </div>
+                                ©INFLAB. ALL RIGHTS RESERVED
+                        </div>
+                    </div>
+                    <div class="footer_bottom_right">
+                        <a href="">
+                            <img src="https://www.shouse.garden/images/common/u_in_m.png">
+                        </a>
+                        <a href="">
+                            <img src="https://www.shouse.garden/images/common/u_fb_m.png">
+                        </a>
+                        <a href="">
+                            <img src="https://www.shouse.garden/images/common/u_kc_m.png">
+                        </a>
+                        <a href="">
+                            <img src="https://www.shouse.garden/images/common/u_ap_m.png">
+                        </a>
+                        <a href="">
+                            <img src="https://www.shouse.garden/images/common/u_yt_m.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
