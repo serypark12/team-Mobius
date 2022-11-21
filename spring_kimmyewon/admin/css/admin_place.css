@@ -1,0 +1,196 @@
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation_area {
+    width: 200px;
+    display: block;
+    background-color: #696969;
+    padding: 25px;
+}
+
+.logo_area {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.nav_list {
+    width: 190px;
+    margin: 0 auto;
+}
+
+.dash_area {
+    font-weight: 600;
+    color: #fff;
+    padding: 40px 0 ;
+    font-size: 18px;
+    border-bottom: 1px solid #808080;
+    cursor: pointer;
+}
+
+.dash_img {
+    background-image: url(https://ifh.cc/g/PprJdm.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.nav_title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #D3D3D3;
+    margin-top: 40px;
+}
+
+.nav_content {
+    width: 168px;
+    height: 30px;
+    padding: 4px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+span {
+    color: #fff;
+}
+
+li {
+    cursor: pointer;
+}
+
+.fill_bottom {
+    padding-bottom: 80px;
+    color: #696969;
+}
+
+.place_li > a > span {
+    text-decoration: underline; 
+    text-underline-position:under;
+    text-decoration-color : #fff;
+}
+
+.main_area {
+    width: 100%;
+    padding: 30px 50px 30px 40px;
+}
+
+.main_title {
+    margin-bottom: 20px;
+}
+
+.title_text {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.list_area {
+    border: 1px solid #D3D3D3;
+    padding: 20px 20px 30px;
+}
+
+.list_upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place_total {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.place_total > div {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.add_button_area {
+    display: inline-block;
+}
+
+.list_item {
+    background-color: #696969;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+.list_item {
+    background-color: #696969;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+.list_item > div{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.item_number, .place_number{
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item_name, .place_name {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item_address, .place_address {
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item_count, .place_count {
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item_detail, .place_detail {
+    width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item_function, .place_function {
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list_content {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.list_content > div {
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+}
